@@ -1,4 +1,4 @@
-## Baixando e Configurtando o Ambiente
+## Baixando e Configurando o Ambiente
 
 Para usar o projeto você deve realizar o clone do mesmo, utilizando o comando abaixo:
 
