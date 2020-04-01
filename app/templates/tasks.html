@@ -1,0 +1,23 @@
+{% extends 'vue/base.html' %}
+
+{% block css %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+{% endblock %}
+
+{% block content %}
+<div id="app">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">Task Form</h1>
+        <task-form></task-form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+  {{ use_component('taskform')  }}
+{% endblock %}

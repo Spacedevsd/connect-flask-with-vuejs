@@ -1,0 +1,5 @@
+.venv
+*.sqlite
+__pycache__
+.vscode
+app/static/.webassets-cache
